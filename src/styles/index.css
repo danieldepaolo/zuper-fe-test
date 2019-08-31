@@ -1,0 +1,40 @@
+.app {
+  margin-top: 3.5em;
+}
+
+.results-area {
+  width: 70%;
+  min-width: 700px;
+  margin: 0 auto;
+}
+
+.results-area div[aria-busy="true"] {
+  text-align: center;
+  margin-top: 4em;
+}
+
+.centered-form {
+  width: 45%;
+  min-width: 250px;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.vertical-flex {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.add-users {
+  margin: 1em 0;
+}
+
+.submit-btn {
+  max-width: 250px;
+  margin: 10px auto;
+}
+
+input[type="text"] {
+  margin-top: 5px;
+}
