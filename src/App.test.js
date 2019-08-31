@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
+import App from './components/App';
 
 import { configure, shallow, mount, render } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 
-import Results from './Results';
-import UserForm from './UserForm';
+import Results from './components/Results';
+import UserForm from './components/UserForm';
 
 configure({ adapter: new Adapter() });
 
