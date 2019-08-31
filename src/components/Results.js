@@ -53,6 +53,7 @@ const Results = ({ userData, isFetching }) => {
 }
 
 Results.propTypes = {
-  userData: PropTypes.object.isRequired
+  userData: PropTypes.object.isRequired,
+  isFetching: PropTypes.bool.isRequired
 };
 export default Results;
